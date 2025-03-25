@@ -13,9 +13,13 @@ public class Entrenador extends Persona{
     public String getEstrategia() {
         return estrategia;
     }
+    public String rolEnEquipo(){
+        return "Entrenador";
+    }
 
     // Setters
     public void setEstrategia(String estrategia) {
         this.estrategia = estrategia;
     }
+
 }

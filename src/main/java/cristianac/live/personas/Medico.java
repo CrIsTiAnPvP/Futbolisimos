@@ -1,5 +1,7 @@
 package cristianac.live.personas;
 
+import cristianac.live.utils.Colors;
+
 public class Medico extends Persona {
 
     private String titulacion;
@@ -16,11 +18,20 @@ public class Medico extends Persona {
         if (lesiones > 0){
             jugador.setNum_lesiones(lesiones - 1);
         } else {
-            System.out.println("El jugador no está lesionado");
+            System.out.println(Colors.RED + "El jugador ("+Colors.YELLOW_BACKGROUND+jugador+Colors.BLACK_BACKGROUND+") no está lesionado"+ Colors.RESET);
         }
 
-        int r_inicial = jugador.getResistencia_inicial();
+        float r_inicial = jugador.getResistencia_inicial();
         jugador.setResistencia(r_inicial);
     }
+
+    // Getters
+    public String getTitulacion() { return titulacion; }
+    public int getExperiencia() { return experiencia; }
+    public String rolEnEquipo(){ return "Medico"; }
+
+    // Setters
+    public void setTitulacion(String titulacion) { this.titulacion = titulacion; }
+    public void setExperiencia(int experiencia) { this.experiencia = experiencia; }
 
 }

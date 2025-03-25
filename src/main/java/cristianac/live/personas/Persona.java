@@ -36,14 +36,7 @@ public class Persona {
     }
 
     // Getters
-    public String getNombre() {
-        return nombre;
-    }
-    public String getDni(){
-        return dni;
-    }
-    public int getEdad() {
-        return edad;
-    }
-
+    public String getNombre() { return nombre; }
+    public String getDni(){ return dni; }
+    public int getEdad() { return edad; }
 }
