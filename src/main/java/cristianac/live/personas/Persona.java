@@ -18,17 +18,17 @@ public class Persona {
         }
 
         // Comprobamos que el dni sea (12345678A)
-        String dni_reg = "^[0-9]{8}[A-Z]$";
+            String dni_reg = "^[0-9]{8}[A-Z]$";
         if (!dni.matches(dni_reg)) {
-            throw new IllegalArgumentException("El DNI no es válido");
+            throw new IllegalArgumentException("El DNI no es válido: " + dni);
         } else {
             this.dni = dni;
         }
 
         if (edad < 16) {
-            throw new IllegalArgumentException("La edad no puede ser menor de 16 años");
+            throw new IllegalArgumentException("La edad no puede ser menor de 16 años: " + edad);
         } else if (edad >80 ){
-            throw new IllegalArgumentException("La edad no puede ser mayor de 80 años");
+            throw new IllegalArgumentException("La edad no puede ser mayor de 80 años: " + edad);
         } else {
             this.edad = edad;
         }

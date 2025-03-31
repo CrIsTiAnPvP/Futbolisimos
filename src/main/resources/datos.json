@@ -1,0 +1,995 @@
+{
+	"jugadores": [
+	  {
+		"nombre": "Lionel Messi",
+		"edad": 36,
+		"posicion": "Delantero",
+		"dni": "12345678A",
+		"numero": 10,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Cristiano Ronaldo",
+		"edad": 38,
+		"posicion": "Delantero",
+		"dni": "87654321B",
+		"numero": 7,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Sergio Ramos",
+		"edad": 37,
+		"posicion": "Defensa",
+		"dni": "11223344C",
+		"numero": 4,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Luka Modric",
+		"edad": 38,
+		"posicion": "Centrocampista",
+		"dni": "44332211D",
+		"numero": 10,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Kylian Mbappé",
+		"edad": 24,
+		"posicion": "Delantero",
+		"dni": "55667788E",
+		"numero": 7,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Neymar Jr",
+		"edad": 31,
+		"posicion": "Delantero",
+		"dni": "99887766F",
+		"numero": 10,
+		"num_lesiones": 1,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Kevin De Bruyne",
+		"edad": 32,
+		"posicion": "Centrocampista",
+		"dni": "33445566H",
+		"numero": 17,
+		"num_lesiones": 2,
+		"resistencia_inicial": 90,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Erling Haaland",
+		"edad": 23,
+		"posicion": "Delantero",
+		"dni": "22334455I",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Manuel Neuer",
+		"edad": 37,
+		"posicion": "Portero",
+		"dni": "11224433J",
+		"numero": 1,
+		"num_lesiones": 1,
+		"resistencia_inicial": 85,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Robert Lewandowski",
+		"edad": 35,
+		"posicion": "Delantero",
+		"dni": "99887711K",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Drake Callender",
+		"edad": 28,
+		"posicion": "Portero",
+		"dni": "10000000A",
+		"numero": 1,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "DeAndre Yedlin",
+		"edad": 31,
+		"posicion": "Defensa",
+		"dni": "10000001B",
+		"numero": 2,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Sergio Romero",
+		"edad": 38,
+		"posicion": "Portero",
+		"dni": "10000002C",
+		"numero": 12,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Sergio Araujo",
+		"edad": 29,
+		"posicion": "Delantero",
+		"dni": "10000003D",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Lewis Morgan",
+		"edad": 24,
+		"posicion": "Centrocampista",
+		"dni": "10000004E",
+		"numero": 17,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Matías Pellegrini",
+		"edad": 27,
+		"posicion": "Centrocampista",
+		"dni": "10000005F",
+		"numero": 8,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Blaise Matuidi",
+		"edad": 38,
+		"posicion": "Centrocampista",
+		"dni": "10000006G",
+		"numero": 15,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Gonzalo Higuaín",
+		"edad": 37,
+		"posicion": "Delantero",
+		"dni": "10000007H",
+		"numero": 11,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Nick Marsman",
+		"edad": 23,
+		"posicion": "Defensa",
+		"dni": "10000008I",
+		"numero": 5,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Andrés Reyes",
+		"edad": 25,
+		"posicion": "Centrocampista",
+		"dni": "10000009J",
+		"numero": 6,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Inter Miami"
+	  },
+	  {
+		"nombre": "Anderson Talisca",
+		"edad": 29,
+		"posicion": "Centrocampista",
+		"dni": "10000010K",
+		"numero": 10,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Pity Martínez",
+		"edad": 31,
+		"posicion": "Centrocampista",
+		"dni": "10000011L",
+		"numero": 11,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Abderrazak Hamdallah",
+		"edad": 33,
+		"posicion": "Delantero",
+		"dni": "10000012M",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Petros",
+		"edad": 28,
+		"posicion": "Delantero",
+		"dni": "10000013N",
+		"numero": 7,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Luiz Gustavo",
+		"edad": 34,
+		"posicion": "Defensa",
+		"dni": "10000014O",
+		"numero": 4,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Nordin Amrabat",
+		"edad": 33,
+		"posicion": "Centrocampista",
+		"dni": "10000015P",
+		"numero": 14,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Saleh Al-Shehri",
+		"edad": 26,
+		"posicion": "Defensa",
+		"dni": "10000016Q",
+		"numero": 3,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Mohammed Al-Fatil",
+		"edad": 30,
+		"posicion": "Defensa",
+		"dni": "10000017R",
+		"numero": 5,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Fahad Al-Muwallid",
+		"edad": 27,
+		"posicion": "Centrocampista",
+		"dni": "10000018S",
+		"numero": 8,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Sultan Al-Ghanam",
+		"edad": 25,
+		"posicion": "Delantero",
+		"dni": "10000019T",
+		"numero": 6,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Nassr"
+	  },
+	  {
+		"nombre": "Youssef En-Nesyri",
+		"edad": 28,
+		"posicion": "Delantero",
+		"dni": "10000020U",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Jules Koundé",
+		"edad": 25,
+		"posicion": "Defensa",
+		"dni": "10000021V",
+		"numero": 4,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Papu Gómez",
+		"edad": 35,
+		"posicion": "Delantero",
+		"dni": "10000022W",
+		"numero": 10,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Marcos Acuña",
+		"edad": 29,
+		"posicion": "Defensa",
+		"dni": "10000023X",
+		"numero": 3,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Jesus Navas",
+		"edad": 36,
+		"posicion": "Centrocampista",
+		"dni": "10000024Y",
+		"numero": 12,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Lucas Ocampos",
+		"edad": 27,
+		"posicion": "Delantero",
+		"dni": "10000025Z",
+		"numero": 11,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Óliver Torres",
+		"edad": 26,
+		"posicion": "Centrocampista",
+		"dni": "10000026A",
+		"numero": 8,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Diego Carlos",
+		"edad": 28,
+		"posicion": "Defensa",
+		"dni": "10000027B",
+		"numero": 2,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Ivan Rakitić",
+		"edad": 36,
+		"posicion": "Centrocampista",
+		"dni": "10000028C",
+		"numero": 7,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Vicente Iborra",
+		"edad": 33,
+		"posicion": "Centrocampista",
+		"dni": "10000029D",
+		"numero": 14,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Sevilla"
+	  },
+	  {
+		"nombre": "Karim Benzema",
+		"edad": 34,
+		"posicion": "Delantero",
+		"dni": "10000030E",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Thibaut Courtois",
+		"edad": 30,
+		"posicion": "Portero",
+		"dni": "10000031F",
+		"numero": 1,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Toni Kroos",
+		"edad": 33,
+		"posicion": "Centrocampista",
+		"dni": "10000032G",
+		"numero": 8,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Luka Jović",
+		"edad": 28,
+		"posicion": "Delantero",
+		"dni": "10000033H",
+		"numero": 11,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Ferland Mendy",
+		"edad": 27,
+		"posicion": "Defensa",
+		"dni": "10000034I",
+		"numero": 3,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Eden Hazard",
+		"edad": 31,
+		"posicion": "Delantero",
+		"dni": "10000035J",
+		"numero": 7,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Vinícius Júnior",
+		"edad": 22,
+		"posicion": "Delantero",
+		"dni": "10000036K",
+		"numero": 20,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Rodrygo",
+		"edad": 21,
+		"posicion": "Delantero",
+		"dni": "10000037L",
+		"numero": 17,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Marco Asensio",
+		"edad": 27,
+		"posicion": "Centrocampista",
+		"dni": "10000038M",
+		"numero": 10,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Dani Carvajal",
+		"edad": 29,
+		"posicion": "Defensa",
+		"dni": "10000039N",
+		"numero": 2,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Real Madrid"
+	  },
+	  {
+		"nombre": "Marco Verratti",
+		"edad": 32,
+		"posicion": "Centrocampista",
+		"dni": "10000040O",
+		"numero": 6,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Presnel Kimpembe",
+		"edad": 26,
+		"posicion": "Defensa",
+		"dni": "10000041P",
+		"numero": 3,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Marquinhos",
+		"edad": 27,
+		"posicion": "Defensa",
+		"dni": "10000042Q",
+		"numero": 4,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Achraf Hakimi",
+		"edad": 25,
+		"posicion": "Defensa",
+		"dni": "10000043R",
+		"numero": 2,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Mauro Icardi",
+		"edad": 30,
+		"posicion": "Delantero",
+		"dni": "10000044S",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Angel Di Maria",
+		"edad": 34,
+		"posicion": "Centrocampista",
+		"dni": "10000045T",
+		"numero": 11,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Nuno Mendes",
+		"edad": 22,
+		"posicion": "Defensa",
+		"dni": "10000046U",
+		"numero": 5,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Georginio Wijnaldum",
+		"edad": 31,
+		"posicion": "Centrocampista",
+		"dni": "10000047V",
+		"numero": 8,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Pablo Sarabia",
+		"edad": 29,
+		"posicion": "Delantero",
+		"dni": "10000048W",
+		"numero": 10,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Danilo Pereira",
+		"edad": 28,
+		"posicion": "Centrocampista",
+		"dni": "10000049X",
+		"numero": 12,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "PSG"
+	  },
+	  {
+		"nombre": "Salman Al-Faraj",
+		"edad": 32,
+		"posicion": "Centrocampista",
+		"dni": "10000050Y",
+		"numero": 10,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Andre Carrillo",
+		"edad": 30,
+		"posicion": "Delantero",
+		"dni": "10000051Z",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Wahbi Khazri",
+		"edad": 33,
+		"posicion": "Delantero",
+		"dni": "10000052A",
+		"numero": 7,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Salem Al-Dawsari",
+		"edad": 28,
+		"posicion": "Delantero",
+		"dni": "10000053B",
+		"numero": 11,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Abdullah Al-Mayouf",
+		"edad": 29,
+		"posicion": "Defensa",
+		"dni": "10000054C",
+		"numero": 4,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Mohammed Al-Shamrani",
+		"edad": 31,
+		"posicion": "Defensa",
+		"dni": "10000055D",
+		"numero": 3,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Firas Al-Buraikan",
+		"edad": 24,
+		"posicion": "Delantero",
+		"dni": "10000056E",
+		"numero": 8,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Omar Al-Somah",
+		"edad": 35,
+		"posicion": "Delantero",
+		"dni": "10000057F",
+		"numero": 12,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Abdullah Otayf",
+		"edad": 27,
+		"posicion": "Defensa",
+		"dni": "10000058G",
+		"numero": 2,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Ali Al-Bulaihi",
+		"edad": 30,
+		"posicion": "Defensa",
+		"dni": "10000059H",
+		"numero": 5,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Al-Hilal"
+	  },
+	  {
+		"nombre": "Ederson",
+		"edad": 30,
+		"posicion": "Portero",
+		"dni": "10000060I",
+		"numero": 1,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Rúben Dias",
+		"edad": 27,
+		"posicion": "Defensa",
+		"dni": "10000061J",
+		"numero": 3,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Kyle Walker",
+		"edad": 32,
+		"posicion": "Defensa",
+		"dni": "10000062K",
+		"numero": 2,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Bernardo Silva",
+		"edad": 28,
+		"posicion": "Centrocampista",
+		"dni": "10000063L",
+		"numero": 8,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Phil Foden",
+		"edad": 22,
+		"posicion": "Centrocampista",
+		"dni": "10000064M",
+		"numero": 47,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Julian Alvarez",
+		"edad": 21,
+		"posicion": "Delantero",
+		"dni": "10000065N",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "John Stones",
+		"edad": 26,
+		"posicion": "Defensa",
+		"dni": "10000066O",
+		"numero": 5,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Rodri",
+		"edad": 25,
+		"posicion": "Centrocampista",
+		"dni": "10000067P",
+		"numero": 16,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Jack Grealish",
+		"edad": 27,
+		"posicion": "Delantero",
+		"dni": "10000068Q",
+		"numero": 7,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Manchester City"
+	  },
+	  {
+		"nombre": "Thomas Müller",
+		"edad": 32,
+		"posicion": "Centrocampista",
+		"dni": "10000069R",
+		"numero": 13,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Joshua Kimmich",
+		"edad": 28,
+		"posicion": "Centrocampista",
+		"dni": "10000070S",
+		"numero": 6,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Leon Goretzka",
+		"edad": 26,
+		"posicion": "Centrocampista",
+		"dni": "10000071T",
+		"numero": 8,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Leroy Sané",
+		"edad": 25,
+		"posicion": "Delantero",
+		"dni": "10000072U",
+		"numero": 10,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Alphonso Davies",
+		"edad": 20,
+		"posicion": "Defensa",
+		"dni": "10000073V",
+		"numero": 19,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Jamal Musiala",
+		"edad": 18,
+		"posicion": "Centrocampista",
+		"dni": "10000074W",
+		"numero": 7,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Serge Gnabry",
+		"edad": 27,
+		"posicion": "Delantero",
+		"dni": "10000075X",
+		"numero": 11,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Eric Maxim Choupo-Moting",
+		"edad": 35,
+		"posicion": "Delantero",
+		"dni": "10000076Y",
+		"numero": 9,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Dayot Upamecano",
+		"edad": 23,
+		"posicion": "Defensa",
+		"dni": "10000077Z",
+		"numero": 4,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Sven Ulreich",
+		"edad": 35,
+		"posicion": "Portero",
+		"dni": "10000078A",
+		"numero": 1,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Bayern Munich"
+	  },
+	  {
+		"nombre": "Marc-André ter Stegen",
+		"edad": 30,
+		"posicion": "Portero",
+		"dni": "10000079B",
+		"numero": 1,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Ronald Araújo",
+		"edad": 23,
+		"posicion": "Defensa",
+		"dni": "10000080C",
+		"numero": 4,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Jordi Alba",
+		"edad": 32,
+		"posicion": "Defensa",
+		"dni": "10000081D",
+		"numero": 18,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Frenkie de Jong",
+		"edad": 25,
+		"posicion": "Centrocampista",
+		"dni": "10000082E",
+		"numero": 21,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Pedri",
+		"edad": 20,
+		"posicion": "Centrocampista",
+		"dni": "10000083F",
+		"numero": 16,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Ousmane Dembélé",
+		"edad": 24,
+		"posicion": "Delantero",
+		"dni": "10000084G",
+		"numero": 7,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Ansu Fati",
+		"edad": 18,
+		"posicion": "Delantero",
+		"dni": "10000085H",
+		"numero": 11,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Gavi",
+		"edad": 18,
+		"posicion": "Centrocampista",
+		"dni": "10000086I",
+		"numero": 30,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Sergi Roberto",
+		"edad": 31,
+		"posicion": "Centrocampista",
+		"dni": "10000087J",
+		"numero": 5,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  },
+	  {
+		"nombre": "Riqui Puig",
+		"edad": 24,
+		"posicion": "Centrocampista",
+		"dni": "10000088K",
+		"numero": 8,
+		"num_lesiones": 0,
+		"resistencia_inicial": 100,
+		"equipo": "Barcelona"
+	  }
+	]
+  }
+  

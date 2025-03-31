@@ -1,5 +1,6 @@
 package cristianac.live;
 
+import cristianac.live.creators.Jugadores;
 import cristianac.live.liga.Equipo;
 import cristianac.live.personas.Futbolista;
 import cristianac.live.utils.Colors;
@@ -10,28 +11,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        List<Futbolista> jugadores = new ArrayList<>();
-        jugadores.add(new Futbolista("Jugador 1", "12345678A", 25, 1, "Delantero",  0, 100));
-        jugadores.add(new Futbolista("Jugador 2", "23456789B", 28, 2, "Defensa",  0, 100));
-        jugadores.add(new Futbolista("Jugador 3", "34567890C", 22, 3, "Mediocampista",  0, 100));
-        jugadores.add(new Futbolista("Jugador 4", "45678901D", 30, 4, "Portero",  0, 100));
-        jugadores.add(new Futbolista("Jugador 5", "56789012E", 27, 5, "Defensa",  0, 100));
-        jugadores.add(new Futbolista("Jugador 6", "67890123F", 24, 6, "Delantero",  0, 100));
-        jugadores.add(new Futbolista("Jugador 7", "78901234G", 26, 7, "Mediocampista",  0, 100));
-        jugadores.add(new Futbolista("Jugador 8", "89012345H", 29, 8, "Defensa",  0, 100));
-        jugadores.add(new Futbolista("Jugador 9", "90123456I", 23, 9, "Delantero",  0, 100));
-        jugadores.add(new Futbolista("Jugador 10", "01234567J", 31, 10, "Mediocampista",  0, 100));
-        jugadores.add(new Futbolista("Jugador 11", "12345678K", 28, 11, "Defensa",  0, 100));
-
-        Equipo equipo = new Equipo("Equipo Local", "Localidad", null, null, jugadores);
-
-
-        mostrarJugadores(equipo, true);
-        List<Futbolista> convocatoria = ConvocarJugadores(equipo);
-        System.out.println(Colors.PURPLE + "Jugadores convocados: " + Colors.RESET);
-        for (Futbolista f : convocatoria) {
-            System.out.println(Colors.YELLOW + f.getNumero() + Colors.PURPLE + " - " + Colors.BLUE + f.getNombre() + Colors.RESET);
-        }
 
 
     }

@@ -3,7 +3,6 @@ package cristianac.live.personas;
 import cristianac.live.utils.Colors;
 
 import java.util.Random;
-import java.util.random.*;
 
 public class Futbolista extends Persona {
 
